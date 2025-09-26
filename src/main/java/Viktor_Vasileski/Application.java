@@ -26,7 +26,7 @@ public class Application {
     CheckoutDAO cd = new CheckoutDAO(em);
     System.out.println("Database caricato.");
 
-    mainMenu(ud, ed, cd);
+    mainMenu(ed, cd);
 
     s.close();
     em.close();
